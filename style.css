@@ -1,8 +1,21 @@
-html {
-	filter: invert(1.0) hue-rotate(180deg) brightness(0.8);
-}
+/* ==UserStyle==
+@name           Dark - DouBao
+@namespace      HeveraletLaidCenx
+@version        1.0.0
+@description    a custom dark style for DouBao
+@author:        HeveraletLaidCenx
+@homepageURL    https://github.com/HeveraletLaidCenx/userstyle_doubao
+@supportURL     https://github.com/HeveraletLaidCenx/userstyle_doubao/issues
+@license        CC-BY-SA-4.0
+==/UserStyle== */
 
-img,
-.custom-code-block-container {
-	filter: invert(1.0) hue-rotate(180deg);
+@-moz-document domain("doubao.com") {
+  html {
+    filter: invert(1.0) hue-rotate(180deg) brightness(0.8);
+  }
+
+  img,
+  .custom-code-block-container {
+    filter: invert(1.0) hue-rotate(180deg);
+  }
 }
