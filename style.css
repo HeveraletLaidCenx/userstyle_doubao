@@ -1,0 +1,8 @@
+html {
+	filter: invert(1.0) hue-rotate(180deg) brightness(0.8);
+}
+
+img,
+.custom-code-block-container {
+	filter: invert(1.0) hue-rotate(180deg);
+}
